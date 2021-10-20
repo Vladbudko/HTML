@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CWlesson3jpg4</title>
+    <style>
+        .container{
+            width: 1000px;
+            border: 5px solid silver;
+            border-radius: 10px;
+            box-sizing: border-box;
+            margin: 0 auto ;
+            padding: 5px;
+        }
+
+        .header{
+            height: 100px;
+            background: darkgrey;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main{
+            margin-top: 5px;
+            display: flex;
+
+        }
+
+        .left-content{
+            display: flex;
+            column-gap: 5px;
+            flex-wrap: wrap;
+        }
+
+        .item{
+            height: 150px;
+            width: 200px;
+            flex-grow: 1;
+            background: darkgrey;
+            margin-top: 5px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-left{
+            width: 80%;
+        }
+
+        .main-right{
+            background: darkgrey;
+            flex-grow: 1;
+            margin-left: 5px;
+            border-radius: 10px;
+            margin-top: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">A</div>
+    <div class="main">
+        <div class="main-left">
+            <div class="left-content">
+                <div class="item">B</div>
+                <div class="item">C</div>
+                <div class="item">D</div>
+                <div class="item">E</div>
+                <div class="item">F</div>
+                <div class="item">G</div>
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="block">H</div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

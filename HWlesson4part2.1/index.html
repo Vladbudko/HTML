@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HWlesson3part2</title>
+    <title>HWlesson3part2-1</title>
     <style>
         #header {
             background: darkcyan;
@@ -22,29 +22,28 @@
             margin-top: 10px;
         }
 
-        .post {
-            background: blueviolet;
-            width: 40%;
-            height: 200px;
-            margin-top: 10px;
-            margin-right: 200px;
-
-        }
-
-        .post2{
-            background: darkgreen;
-            width: 40%;
-            height: 200px;
-            margin-top: 10px;
-            margin-right: 200px;
-
-        }
-
-        .father{
+        .main__content{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
+        }
+
+        .content__top,.content__down {
+            width: 40%;
+            height: 200px;
+            margin-top: 10px;
+            margin-right: 200px;
+        }
+
+        .content__top {
+            background: blueviolet;
+
+        }
+
+        .content__down{
+            background: darkgreen;
 
         }
 
@@ -60,14 +59,11 @@
 <body>
 <div id="header"></div>
 <div id="menu"></div>
-<div class="father">
-    <div class="post"></div>
-    <div class="post2"></div>
+<div class="main__content">
+    <div class="content__top"></div>
+    <div class="content__down"></div>
 </div>
 <div class="footer"></div>
-
-
-
 
 
 </body>

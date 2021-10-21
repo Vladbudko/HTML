@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HWlesson3part2-3</title>
+    <style>
+
+        body{
+            box-sizing: border-box;
+        }
+
+        .main__header{
+            background: cornflowerblue;
+            height: 150px;
+
+
+        }
+
+        .nav {
+            background: darkcyan;
+            height: 100px;
+        }
+
+            .main__header,.nav,.footer{
+                width: 1500px;
+            }
+
+
+
+        .left__content{
+            background: salmon;
+            width: 1000px;
+
+
+        }
+
+        .right__content,.left__content{
+            height: 400px;
+        }
+
+        .right__content{
+            background: blueviolet;
+            width: 494px;
+
+        }
+
+        .main__content{
+            display: flex;
+        }
+
+        .footer{
+            background: blue;
+            height: 125px;
+
+        }
+
+        .main__header,.nav,.left__content,.right__content,.footer{
+            border: solid 3px black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+<div class="main__header">Header</div>
+<div class="nav">Nav</div>
+<div class="main__content">
+    <div class="left__content">Aside</div>
+    <div class="right__content">Main</div>
+</div>
+<div class="footer">Footer</div>
+</body>
+</html>
